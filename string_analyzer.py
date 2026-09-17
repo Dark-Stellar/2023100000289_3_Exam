@@ -1,11 +1,5 @@
 def analyze_digits_and_case(user_input):
-    """
-    Strip leading/trailing whitespace, count uppercase letters,
-    and sum all numeric digits.
 
-    Returns (uppercase_count, digit_sum).
-    Returns (0, 0) if input is empty or has no uppercase letters or digits.
-    """
     if not isinstance(user_input, str):
         return (0, 0)
 
